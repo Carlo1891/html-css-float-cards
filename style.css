@@ -6,42 +6,43 @@
     box-sizing: border-box;
 }
 
-/*Intestazione*/
+/*Intestazione pagina*/
 
 header{
     text-align: center;
     color: palevioletred;
     margin-top: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*Corpo*/
 
 .container{
-    margin: 40px 15% 15%;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.description{
+    text-align: center;
+    margin: 40px 120px;
 }
 
 a{
     text-decoration: none;
 }
 
-.team{
-    margin: 40px auto;
-    text-align: left;
-}
-
-/*Singole caselle*/
+/*Etichette*/
 
 .worker{
-    width: 400px;
+    width: 305px;
     height: 80px;
-    margin: 40px;
+    margin: calc(100%/6 - 160px);
     background-color: rgb(20, 19, 19);
     box-shadow: 10px 10px 5px #dedede;
     color: white;
     float: left;
 }
+
+/*Contenuto etichette*/
 
 img{
     width: 80px;
@@ -54,8 +55,8 @@ p strong{
 }
 
 .profile{
-    padding: 13px 20px;
     float: left;
+    padding: 15px 10px 0;
 }
 
 a{
