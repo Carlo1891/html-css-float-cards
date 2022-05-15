@@ -1,64 +1,62 @@
-/*Resect*/
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*Intestazione pagina*/
-
-header{
-    text-align: center;
-    color: palevioletred;
-    margin-top: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
-/*Corpo*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background: white;
+}
 
 .container{
-    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.description{
+section{
+    padding: 20px 0;
+}
+
+h1{
+    color: pink;
     text-align: center;
-    margin: 40px 120px;
+    margin: 20px 0;
+    font-size: 40px;
 }
 
-a{
-    text-decoration: none;
+p{
+    text-align: center;
 }
 
-/*Etichette*/
-
-.worker{
-    width: 305px;
-    height: 80px;
-    margin: calc(100%/6 - 160px);
-    background-color: rgb(20, 19, 19);
-    box-shadow: 10px 10px 5px #dedede;
+.card{
+    float: left;
+    background-color: black;
     color: white;
+    margin: 20px 10px;
+    width: calc(100% / 3 - 20px);
+}
+
+.card .avatar{
     float: left;
+    width: 100px;
 }
 
-/*Contenuto etichette*/
-
-img{
-    width: 80px;
-    height: 80px;
-    float: left;
+.card .contents{
+    padding: 10px;
+    margin-left: 95px;
 }
 
-p strong{
-    font-style: bold;
-}
-
-.profile{
-    float: left;
-    padding: 15px 10px 0;
-}
-
-a{
-    color: aquamarine;
+.contents > a{
+    text-decoration: none;
+    color: aqua;
 }
