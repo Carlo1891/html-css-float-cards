@@ -1,44 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: '';
     display: table;
     clear: both;
 }
 
-body{
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     background: white;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-section{
+section {
     padding: 20px 0;
 }
 
-h1{
+h1 {
     color: pink;
     text-align: center;
     margin: 20px 0;
     font-size: 40px;
 }
 
-p{
+p {
     text-align: center;
 }
 
-.card{
+.card {
     float: left;
     background-color: black;
     color: white;
@@ -46,17 +46,17 @@ p{
     width: calc(100% / 3 - 20px);
 }
 
-.card .avatar{
+.card .avatar {
     float: left;
     width: 100px;
 }
 
-.card .contents{
+.card .contents {
     padding: 10px;
     margin-left: 95px;
 }
 
-.contents > a{
+.contents > a {
     text-decoration: none;
     color: aqua;
 }
